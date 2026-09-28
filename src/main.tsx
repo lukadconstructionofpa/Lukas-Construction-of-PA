@@ -1,6 +1,2 @@
-import {createRoot} from 'react-dom/client';
-import App from './App.tsx';
-import './index.css';
-import './interactions';
-
-createRoot(document.getElementById('root')!).render(<App />);
+// Lukas Construction of PA - Static Web Architecture
+export {};
