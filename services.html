@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services – Lukas Construction of PA</title>
+    <meta name="description" content="Explore residential construction, remodeling, additions, roofing, decks, and renovation services offered by Lukas Construction of PA in Allentown, PA." />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Cabinet+Grotesk:wght@600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/index.css" />
+  </head>
+  <body class="bg-neutral-50 text-neutral-900 antialiased selection:bg-amber-500 selection:text-white flex flex-col min-h-screen">
+    
+    <!-- Top Navigation -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-neutral-200/80 shadow-xs">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-20">
+          
+          <!-- Brand Zone -->
+          <a href="index.html" class="flex items-center gap-3 group focus:outline-none">
+            <img
+              src="https://lukasconstructionofpa.com/wp-content/uploads/2026/06/cropped-Lukas-Construction-logo.jpeg"
+              alt="Lukas Construction of PA Logo"
+              class="h-12 w-auto object-contain transition-transform group-hover:scale-105"
+            />
+            <div class="flex flex-col">
+              <span class="font-heading font-extrabold text-lg sm:text-xl text-neutral-900 tracking-tight leading-tight group-hover:text-amber-600 transition-colors">
+                Lukas Construction
+              </span>
+              <span class="text-xs font-bold text-amber-600 uppercase tracking-widest">
+                of PA
+              </span>
+            </div>
+          </a>
+
+          <!-- Desktop Navigation Links -->
+          <nav class="hidden md:flex items-center gap-8">
+            <a href="index.html" class="text-sm font-semibold text-neutral-700 hover:text-amber-600 transition-colors py-1">
+              Home
+            </a>
+            <a href="about.html" class="text-sm font-semibold text-neutral-700 hover:text-amber-600 transition-colors py-1">
+              About
+            </a>
+            <a href="services.html" class="text-sm font-semibold text-amber-600 transition-colors py-1 relative after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-amber-600">
+              Services
+            </a>
+            <a href="contact.html" class="text-sm font-semibold text-neutral-700 hover:text-amber-600 transition-colors py-1">
+              Contact
+            </a>
+          </nav>
+
+          <!-- Action Zone -->
+          <div class="hidden lg:flex items-center gap-4">
+            <a href="tel:+14846609091" class="flex items-center gap-2 text-xs sm:text-sm font-semibold text-neutral-800 hover:text-amber-600 transition-colors">
+              <span class="tabular-nums">(484) 660-9091</span>
+            </a>
+            <a href="contact.html" class="px-4 py-2.5 text-xs font-bold uppercase tracking-wider text-white bg-neutral-900 rounded-lg hover:bg-amber-600 transition-colors shadow-sm whitespace-nowrap">
+              Free Estimate
+            </a>
+          </div>
+
+          <!-- Mobile Menu Toggle Button -->
+          <div class="flex md:hidden items-center gap-2">
+            <a href="tel:+14846609091" class="p-2 text-neutral-700 hover:text-amber-600 font-bold text-sm">
+              Call
+            </a>
+            <button id="mobile-menu-btn" class="p-2 text-neutral-700 hover:text-neutral-900" aria-label="Toggle menu">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Dropdown -->
+      <div id="mobile-menu" class="hidden md:hidden border-t border-neutral-200 bg-white px-4 pt-3 pb-6 space-y-3 shadow-lg">
+        <div class="flex flex-col space-y-2">
+          <a href="index.html" class="px-3 py-2 rounded-md text-base font-semibold text-neutral-700 hover:bg-neutral-100">Home</a>
+          <a href="about.html" class="px-3 py-2 rounded-md text-base font-semibold text-neutral-700 hover:bg-neutral-100">About</a>
+          <a href="services.html" class="px-3 py-2 rounded-md text-base font-semibold bg-amber-50 text-amber-700">Services</a>
+          <a href="contact.html" class="px-3 py-2 rounded-md text-base font-semibold text-neutral-700 hover:bg-neutral-100">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-1 py-12">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Back to Home Button -->
+        <a
+          href="index.html"
+          class="inline-flex items-center gap-2 text-sm font-bold text-neutral-700 hover:text-amber-600 mb-8 px-4 py-2 rounded-lg bg-white border border-neutral-200 shadow-xs transition-colors"
+        >
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
+          <span>Back to Home</span>
+        </a>
+
+        <!-- Services Container -->
+        <div class="bg-white rounded-3xl p-8 sm:p-12 border border-neutral-200 shadow-sm space-y-10">
+          
+          <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 pb-6 border-b border-neutral-200">
+            <div class="max-w-3xl">
+              <span class="text-xs font-bold uppercase tracking-widest text-amber-600">Complete Directory</span>
+              <h1 class="font-heading text-4xl sm:text-5xl font-black text-neutral-900 mt-2 tracking-tight">
+                Our Residential Services
+              </h1>
+              <p className="text-lg text-neutral-600 mt-4 leading-relaxed">
+                Lukas Construction of PA delivers full-scale residential construction, remodeling, additions, and repair trades across Pennsylvania.
+              </p>
+            </div>
+
+            <!-- Single button "View More" with kgmid link -->
+            <div class="shrink-0">
+              <a
+                href="https://www.google.com/search?kgmid=/g/11z83pb1qn"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-premium inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-neutral-950 font-bold text-sm transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5"
+              >
+                <span>View More</span>
+                <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- All 19 Services Grid -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            <div class="p-6 rounded-2xl border border-neutral-200 bg-neutral-50/60 flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-mono font-bold text-amber-600 mb-2 block">01</span>
+                <h3 class="font-heading text-lg font-bold text-neutral-900 mb-2">Basement remodelling</h3>
+                <p class="text-xs text-neutral-600 leading-relaxed">Full conversions into high-end home lounges, guest suites, theaters, and dry living areas.</p>
+              </div>
+            </div>
+
+            <div class="p-6 rounded-2xl border border-neutral-200 bg-neutral-50/60 flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-mono font-bold text-amber-600 mb-2 block">02</span>
+                <h3 class="font-heading text-lg font-bold text-neutral-900 mb-2">Bathroom remodelling</h3>
+                <p class="text-xs text-neutral-600 leading-relaxed">Walk-in tiled showers, dual vanities, modern fixtures, moisture-resistant drywall, and luxury finishes.</p>
+              </div>
+            </div>
+
+            <div class="p-6 rounded-2xl border border-neutral-200 bg-neutral-50/60 flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-mono font-bold text-amber-600 mb-2 block">03</span>
+                <h3 class="font-heading text-lg font-bold text-neutral-900 mb-2">Deck construction</h3>
+                <p class="text-xs text-neutral-600 leading-relaxed">Multi-tier composite and pressure-treated cedar decks, custom railings, stairs, and outdoor pergolas.</p>
+              </div>
+            </div>
+
+            <div class="p-6 rounded-2xl border border-neutral-200 bg-neutral-50/60 flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-mono font-bold text-amber-600 mb-2 block">04</span>
+                <h3 class="font-heading text-lg font-bold text-neutral-900 mb-2">Drywall installation</h3>
+                <p class="text-xs text-neutral-600 leading-relaxed">Seamless hanging, Level 5 taping and mudding, smooth sanding, and flawless wall prep.</p>
+              </div>
+            </div>
+
+            <div class="p-6 rounded-2xl border border-neutral-200 bg-neutral-50/60 flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-mono font-bold text-amber-600 mb-2 block">05</span>
+                <h3 class="font-heading text-lg font-bold text-neutral-900 mb-2">Exterior finishing</h3>
+                <p class="text-xs text-neutral-600 leading-relaxed">Siding, trim wraps, fascia, soffits, and weatherproofing for Pennsylvania seasons.</p>
+              </div>
+            </div>
+
+            <div class="p-6 rounded-2xl border border-neutral-200 bg-neutral-50/60 flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-mono font-bold text-amber-600 mb-2 block">06</span>
+                <h3 class="font-heading text-lg font-bold text-neutral-900 mb-2">Floor fitting</h3>
+                <p class="text-xs text-neutral-600 leading-relaxed">Subfloor leveling, transitions, threshold profiling, and precision tight-seam fitting.</p>
+              </div>
+            </div>
+
+            <div class="p-6 rounded-2xl border border-neutral-200 bg-neutral-50/60 flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-mono font-bold text-amber-600 mb-2 block">07</span>
+                <h3 class="font-heading text-lg font-bold text-neutral-900 mb-2">Flooring</h3>
+                <p class="text-xs text-neutral-600 leading-relaxed">Hardwood, luxury vinyl plank (LVP), engineered timber, and custom tile installations.</p>
+              </div>
+            </div>
+
+            <div class="p-6 rounded-2xl border border-neutral-200 bg-neutral-50/60 flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-mono font-bold text-amber-600 mb-2 block">08</span>
+                <h3 class="font-heading text-lg font-bold text-neutral-900 mb-2">General building construction</h3>
+                <p class="text-xs text-neutral-600 leading-relaxed">Structural framing, foundation coordination, load-bearing modifications, and full builds.</p>
+              </div>
+            </div>
+
+            <div class="p-6 rounded-2xl border border-neutral-200 bg-neutral-50/60 flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-mono font-bold text-amber-600 mb-2 block">09</span>
+                <h3 class="font-heading text-lg font-bold text-neutral-900 mb-2">General construction</h3>
+                <p class="text-xs text-neutral-600 leading-relaxed">Turnkey project management from blueprints and permits through final inspection certificate.</p>
+              </div>
+            </div>
+
+            <div class="p-6 rounded-2xl border border-neutral-200 bg-neutral-50/60 flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-mono font-bold text-amber-600 mb-2 block">10</span>
+                <h3 class="font-heading text-lg font-bold text-neutral-900 mb-2">Home addition construction</h3>
+                <p class="text-xs text-neutral-600 leading-relaxed">Second-story expansions, sunrooms, master suite wings, and in-law suites.</p>
+              </div>
+            </div>
+
+            <div class="p-6 rounded-2xl border border-neutral-200 bg-neutral-50/60 flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-mono font-bold text-amber-600 mb-2 block">11</span>
+                <h3 class="font-heading text-lg font-bold text-neutral-900 mb-2">Home building</h3>
+                <p class="text-xs text-neutral-600 leading-relaxed">Ground-up custom single-family residential framing and construction excellence.</p>
+              </div>
+            </div>
+
+            <div class="p-6 rounded-2xl border border-neutral-200 bg-neutral-50/60 flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-mono font-bold text-amber-600 mb-2 block">12</span>
+                <h3 class="font-heading text-lg font-bold text-neutral-900 mb-2">Home renovations</h3>
+                <p class="text-xs text-neutral-600 leading-relaxed">Whole-house updates, wall removal, open floor plans, and modern layout conversions.</p>
+              </div>
+            </div>
+
+            <div class="p-6 rounded-2xl border border-neutral-200 bg-neutral-50/60 flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-mono font-bold text-amber-600 mb-2 block">13</span>
+                <h3 class="font-heading text-lg font-bold text-neutral-900 mb-2">Home repairs</h3>
+                <p class="text-xs text-neutral-600 leading-relaxed">Structural adjustments, door/window replacements, water intrusion repairs, and carpentry fixes.</p>
+              </div>
+            </div>
+
+            <div class="p-6 rounded-2xl border border-neutral-200 bg-neutral-50/60 flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-mono font-bold text-amber-600 mb-2 block">14</span>
+                <h3 class="font-heading text-lg font-bold text-neutral-900 mb-2">Interior finishing</h3>
+                <p class="text-xs text-neutral-600 leading-relaxed">Crown molding, baseboards, wainscoting, casing, custom shelving, and architectural millwork.</p>
+              </div>
+            </div>
+
+            <div class="p-6 rounded-2xl border border-neutral-200 bg-neutral-50/60 flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-mono font-bold text-amber-600 mb-2 block">15</span>
+                <h3 class="font-heading text-lg font-bold text-neutral-900 mb-2">Kitchen remodelling</h3>
+                <p class="text-xs text-neutral-600 leading-relaxed">Custom cabinetry, quartz islands, luxury backsplashes, and premium lighting reconfiguration.</p>
+              </div>
+            </div>
+
+            <div class="p-6 rounded-2xl border border-neutral-200 bg-neutral-50/60 flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-mono font-bold text-amber-600 mb-2 block">16</span>
+                <h3 class="font-heading text-lg font-bold text-neutral-900 mb-2">New home construction</h3>
+                <p class="text-xs text-neutral-600 leading-relaxed">Complete new residential builds crafted with superior insulation, framing, and architecture.</p>
+              </div>
+            </div>
+
+            <div class="p-6 rounded-2xl border border-neutral-200 bg-neutral-50/60 flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-mono font-bold text-amber-600 mb-2 block">17</span>
+                <h3 class="font-heading text-lg font-bold text-neutral-900 mb-2">Remodelling</h3>
+                <p class="text-xs text-neutral-600 leading-relaxed">Comprehensive interior and exterior remodeling tailored to your family's lifestyle.</p>
+              </div>
+            </div>
+
+            <div class="p-6 rounded-2xl border border-neutral-200 bg-neutral-50/60 flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-mono font-bold text-amber-600 mb-2 block">18</span>
+                <h3 class="font-heading text-lg font-bold text-neutral-900 mb-2">Roof installation</h3>
+                <p class="text-xs text-neutral-600 leading-relaxed">Architectural asphalt shingles, underlayment, ice and water shielding, and attic ventilation.</p>
+              </div>
+            </div>
+
+            <div class="p-6 rounded-2xl border border-neutral-200 bg-neutral-50/60 flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-mono font-bold text-amber-600 mb-2 block">19</span>
+                <h3 class="font-heading text-lg font-bold text-neutral-900 mb-2">Roof repair</h3>
+                <p class="text-xs text-neutral-600 leading-relaxed">Flashing repairs, leak mitigation, wind and storm shingle replacement, and ridge cap restoration.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Bottom Action Bar with View More button -->
+          <div class="p-8 rounded-2xl bg-neutral-100 flex flex-col sm:flex-row items-center justify-between gap-6">
+            <div>
+              <h3 class="font-heading text-xl font-bold text-neutral-900">
+                Ready to Start Your Construction Project?
+              </h3>
+              <p class="text-neutral-600 text-sm mt-1">
+                Contact Lukas Construction of PA at <a href="tel:+14846609091" class="font-bold text-amber-600 hover:underline">(484) 660-9091</a>.
+              </p>
+            </div>
+            <a
+              href="https://www.google.com/search?kgmid=/g/11z83pb1qn"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-premium px-6 py-3.5 rounded-xl bg-neutral-900 hover:bg-amber-600 text-white font-bold text-sm transition-all shadow-md hover:shadow-lg whitespace-nowrap inline-flex items-center gap-2 group hover:-translate-y-0.5"
+            >
+              <span>View More</span>
+              <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-neutral-950 text-white pt-16 pb-12 border-t border-neutral-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 pb-14 border-b border-neutral-800">
+          
+          <div class="lg:col-span-4 space-y-4">
+            <div class="flex items-center gap-3">
+              <img
+                src="https://lukasconstructionofpa.com/wp-content/uploads/2026/06/cropped-Lukas-Construction-logo.jpeg"
+                alt="Lukas Construction of PA Logo"
+                class="h-12 w-auto object-contain bg-white/10 rounded-md p-1"
+              />
+              <div>
+                <span class="font-heading font-black text-xl text-white tracking-tight block">
+                  Lukas Construction
+                </span>
+                <span class="text-xs font-bold text-amber-400 uppercase tracking-widest">
+                  of PA
+                </span>
+              </div>
+            </div>
+
+            <p class="text-neutral-400 text-sm leading-relaxed max-w-sm pt-2">
+              Premier residential construction, master home remodeling, additions, and repairs built with integrity across Allentown, PA and the greater Lehigh Valley.
+            </p>
+
+            <div class="pt-2 text-xs text-neutral-500">
+              Licensed & Insured Residential General Contractor
+            </div>
+          </div>
+
+          <div class="lg:col-span-3 space-y-4">
+            <h4 class="font-heading text-base font-bold text-white uppercase tracking-wider text-amber-400">
+              Get In Touch
+            </h4>
+            <div class="space-y-3 text-sm text-neutral-300">
+              <div>
+                <p class="font-medium text-white">3525 Regent Ct</p>
+                <p class="text-neutral-400 text-xs">Allentown, PA 18103</p>
+              </div>
+
+              <div>
+                <a href="tel:+14846609091" class="text-white hover:text-amber-400 transition-colors font-medium tabular-nums">
+                  (484) 660-9091
+                </a>
+              </div>
+
+              <div>
+                <a href="mailto:lukasconstructionofpa@gmail.com" class="text-white hover:text-amber-400 transition-colors text-xs break-all">
+                  lukasconstructionofpa@gmail.com
+                </a>
+              </div>
+
+              <div class="pt-1 text-xs text-neutral-400">
+                Monday – Friday: 7:00 AM – 5:00 PM
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-2 space-y-4">
+            <h4 class="font-heading text-base font-bold text-white uppercase tracking-wider text-amber-400">
+              Quick Links
+            </h4>
+            <ul class="space-y-2.5 text-sm text-neutral-400">
+              <li><a href="contact.html" class="hover:text-amber-400 transition-colors">Contact Page</a></li>
+              <li><a href="about.html" class="hover:text-amber-400 transition-colors">About Us</a></li>
+              <li><a href="services.html" class="text-amber-400 font-semibold">Services</a></li>
+              <li><a href="index.html" class="hover:text-amber-400 transition-colors">Home Page</a></li>
+            </ul>
+          </div>
+
+          <div class="lg:col-span-3 space-y-4">
+            <h4 class="font-heading text-base font-bold text-white uppercase tracking-wider text-amber-400">
+              Find Our Office
+            </h4>
+            <div class="relative overflow-hidden rounded-xl border border-neutral-800 bg-neutral-900 shadow-md group">
+              <a
+                href="https://g.page/r/CSRuYcPFxVbfEBM/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="block relative cursor-pointer"
+                title="Open Lukas Construction of PA on Google Maps"
+              >
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d193928.8398763608!2d-75.4699343!3d40.5827065!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4da37610906bc4fd%3A0xdf56c5c5c3616e24!2sLukas%20Construction%20of%20PA!5e0!3m2!1sen!2s!4v1790625183518!5m2!1sen!2s"
+                  width="100%"
+                  height="200"
+                  style="border:0;"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  title="Lukas Construction of PA Location"
+                  class="w-full h-48 block pointer-events-none"
+                ></iframe>
+                <div class="absolute inset-0 bg-transparent group-hover:bg-neutral-900/10 transition-colors flex items-center justify-center">
+                  <span class="opacity-0 group-hover:opacity-100 transition-opacity bg-neutral-900/90 text-white text-xs font-semibold px-3 py-1.5 rounded-lg border border-neutral-700 shadow-lg pointer-events-none">
+                    Open in Google Maps
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-neutral-400 gap-4">
+          <p>© 2026 Lukas Construction of PA. All Rights Reserved.</p>
+          <p>
+            Powered and Secured by <a href="https://therankinggeeks.ai/" target="_blank" rel="noopener noreferrer" class="text-amber-400 hover:text-amber-300 font-semibold underline underline-offset-2">The Ranking Geeks</a>
+          </p>
+        </div>
+
+      </div>
+    </footer>
+
+    <script type="module" src="/src/interactions.ts"></script>
+    <script>
+      const menuBtn = document.getElementById('mobile-menu-btn');
+      const menu = document.getElementById('mobile-menu');
+      if (menuBtn && menu) {
+        menuBtn.addEventListener('click', () => {
+          menu.classList.toggle('hidden');
+        });
+      }
+    </script>
+  </body>
+</html>

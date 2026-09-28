@@ -1,0 +1,6 @@
+{
+  "name": "Lukas Construction of PA",
+  "description": "Premier residential general contractor in Allentown, PA specializing in home remodeling, additions, basements, kitchens, decks, and roofing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
